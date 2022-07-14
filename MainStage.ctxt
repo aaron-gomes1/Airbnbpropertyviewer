@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MainStage
+comment0.text=\r\n\ This\ mainStage\ class\ is\ responsible\ for\ starting\ up\ the\ application\ \r\n\ and\ making\ sure\ all\ objects\ are\ initialized\r\n\r\n\ @author\ \ Immanuel\ Rajadurai,\ Maya\ Dejonge,\ Giorgio\ Grimesty,\ Aaron\ Gomes\r\n\ @version\ 06/04/2021\r\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\r\n\ The\ start\ method\ is\ the\ main\ entry\ point\ for\ every\ JavaFX\ application.\ \r\n\ It\ is\ called\ after\ the\ init()\ method\ has\ returned\ and\ after\ \r\n\ the\ system\ is\ ready\ for\ the\ application\ to\ begin\ running.\r\n\r\n\ @param\ \ stage\ the\ primary\ stage\ for\ this\ application.\r\n
+comment2.params=event
+comment2.target=void\ showFavourites(javafx.event.ActionEvent)
+comment2.text=\r\n\ Generates\ a\ list\ of\ all\ favourited\ properties\ and\ displays\ in\ a\r\n\ separate\ window.\r\n\ \r\n
+numComments=3

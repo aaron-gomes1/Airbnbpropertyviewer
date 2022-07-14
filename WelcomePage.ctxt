@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=WelcomePage
+comment0.text=\r\n\ The\ WelcomePage\ creates\ the\ first\ page\ of\ the\ application.\r\n\r\n\ @author\ \ Immanuel\ Rajadurai,\ Maya\ Dejonge,\ Giorgio\ Grimesty,\ Aaron\ Gomes\r\n\ @version\ 06/04/2021\r\n
+comment1.params=selector\ dataLoader
+comment1.target=WelcomePage(PriceSelector,\ AirbnbDataLoader)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ WelcomePage.\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ Updates\ the\ page\r\n
+numComments=3

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PropertyDetails
+comment0.text=\r\n\ The\ PropertyDetails\ class\ displays\ the\ details\ of\ a\ given\ AirbnbListing.\r\n\r\n\ @author\ \ Immanuel\ Rajadurai,\ Maya\ Dejonge,\ Giorgio\ Grimesty,\ Aaron\ Gomes\r\n\ @version\ 06/04/2021\r\n
+comment1.params=property\ favouriter
+comment1.target=PropertyDetails(AirbnbListing,\ Favouriter)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PropertyDetails\r\n\ \r\n\ @param\ property\ The\ property\ whose\ details\ are\ being\ shown\r\n\ @param\ favouriter\ Contains\ the\ favourite\ properties\r\n
+comment2.params=
+comment2.target=void\ createWindow()
+comment2.text=\r\n\ Creates\ a\ new\ window\ which\ displays\ the\ property\ details.\r\n
+comment3.params=
+comment3.target=javafx.scene.control.Button\ createFavouriteButton()
+comment3.text=\r\n\ Creates\ the\ favourite\ button\r\n
+comment4.params=event
+comment4.target=void\ updateFavourites(javafx.event.ActionEvent)
+comment4.text=\r\n\ Updates\ the\ favourite\ button\ when\ clicked\r\n
+comment5.params=
+comment5.target=void\ favourite()
+comment5.text=\r\n\ Sets\ a\ particular\ property\ as\ a\ favourite\r\n
+comment6.params=
+comment6.target=void\ unfavourite()
+comment6.text=\r\n\ Undoes\ the\ favourite\ method\r\n
+numComments=7

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RecommendationsPage
+comment0.text=\r\n\ A\ page\ that\ recommends\ properties\ in\ a\ certain\ borough\ based\ on\ the\ users\ favourite\ properties\r\n\ in\ that\ borough.\r\n\r\n\ @author\ \ Immanuel\ Rajadurai,\ Maya\ Dejonge,\ Giorgio\ Grimesty,\ Aaron\ Gomes\r\n\ @version\ 06/04/2021\r\n
+comment1.params=selector\ dataLoader\ favouriter
+comment1.target=RecommendationsPage(PriceSelector,\ AirbnbDataLoader,\ Favouriter)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ RecommendationsPage.\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ Refreshes\ the\ properties\ displayed\ in\ the\ page\r\n
+comment3.params=boroughName
+comment3.target=void\ update(java.lang.String)
+comment3.text=\r\n\ Changes\ the\ borough\ and\ updates\r\n
+comment4.params=
+comment4.target=java.util.ArrayList\ calculateRecommendedProperties()
+comment4.text=\r\n\ Gets\ the\ properties\ that\ are\ similar\ to\ the\ properties\ the\ user\ has\ as\ a\ favourite\r\n
+comment5.params=valToCompare\ valToCompareAgainst\ bounds
+comment5.target=boolean\ compare(int,\ int,\ int)
+comment5.text=\r\n\ Simple\ comparator\ mechanism\ that\ compares\ 2\ values\ against\ each\ other\ with\ a\ leeway\ (bound)\r\n\ as\ to\ what\ max,\ min\ value\ should\ be\r\n\ \r\n\ @param\ valToCompare\ The\ value\ that\ is\ being\ compared\r\n\ @param\ valToCompareAgainst\ The\ value\ that\ is\ being\ compared\ against\r\n\ @param\ bounds\ The\ maximum\ difference\ allowed\ between\ the\ value\ being\ compared\ and\ the\ value\ being\ compared\ against\r\n\ @return\ If\ the\ two\ values\ are\ within\ the\ bounds\r\n
+numComments=6

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=StatisticsPage
+comment0.text=\r\n\ The\ StatisticsPage\ class\ brings\ the\ whole\ statistics\ page\ together\r\n\ and\ also\ updates\ the\ statistics\ if\ different\ boroughs\ are\ selected.\r\n\r\n\ @author\ \ Immanuel\ Rajadurai,\ Maya\ Dejonge,\ Giorgio\ Grimesty,\ Aaron\ Gomes\r\n\ @version\ 06/04/2021\r\n
+comment1.params=selector\ dataLoader\ inputFavouriter\ map
+comment1.target=StatisticsPage(PriceSelector,\ AirbnbDataLoader,\ Favouriter,\ MapPage)
+comment1.text=\r\n\ Constructor\ for\ StatisticsPage.\ Brings\ the\ whole\ stats\ page\ together.\r\n
+comment2.params=
+comment2.target=void\ createStatsPage()
+comment2.text=\r\n\ Creates\ the\ stats\ page.\r\n
+comment3.params=
+comment3.target=void\ updateStatsPage()
+comment3.text=\r\n\ Updates\ the\ stats\ page\r\n
+comment4.params=
+comment4.target=int\ getFromPrice()
+comment4.text=\r\n\ Gets\ the\ from\ price\r\n
+comment5.params=
+comment5.target=int\ getToPrice()
+comment5.text=\r\n\ Gets\ the\ to\ price\r\n
+comment6.params=
+comment6.target=void\ update()
+comment6.text=\r\n\ Updates\ the\ page\r\n
+comment7.params=id
+comment7.target=void\ update(java.lang.String)
+comment7.text=\r\n\ Updates\ the\ page\ with\ a\ new\ id\r\n
+numComments=8

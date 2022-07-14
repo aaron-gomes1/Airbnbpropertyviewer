@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=StatsBox
+comment0.text=\r\n\ The\ StatsBox\ class\ creates\ one\ box\ which\ can\ display\ multiple\ statistics.\r\n\ The\ statistics\ can\ be\ changed\ by\ using\ the\ box's\ navigation\ buttons.\r\n\r\n\ @author\ \ Immanuel\ Rajadurai,\ Maya\ Dejonge,\ Giorgio\ Grimesty,\ Aaron\ Gomes\r\n\ @version\ 06/04/2021\r\n
+comment1.params=
+comment1.target=StatsBox()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MapPage\r\n
+comment2.params=
+comment2.target=int\ getNoOfStatistics()
+comment2.text=\r\n\ Returns\ the\ number\ of\ statistics.\r\n
+comment3.params=newTitle\ newInfo
+comment3.target=void\ addStat(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ Adds\ a\ statistic\ to\ the\ list\ of\ all\ statistics.\r\n
+comment4.params=
+comment4.target=void\ setUpStatsBox()
+comment4.text=\r\n\ Sets\ up\ the\ stats\ box.\r\n
+comment5.params=
+comment5.target=javafx.scene.layout.Pane\ show()
+comment5.text=\r\n\ Shows\ the\ current\ statistic.\r\n
+comment6.params=event
+comment6.target=void\ forwardClick(javafx.event.ActionEvent)
+comment6.text=\r\n\ Goes\ forward\ 1\ panel\ when\ the\ >\ button\ is\ clicked\r\n
+comment7.params=event
+comment7.target=void\ backClick(javafx.event.ActionEvent)
+comment7.text=\r\n\ Goes\ back\ 1\ panel\ when\ the\ <\ button\ is\ clicked\r\n
+numComments=8

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PriceSelector
+comment0.text=\r\n\ The\ PriceSelector\ class\ creates\ the\ dropdown\ for\ price\ selection\ and\ keeps\ track\ of\ the\r\n\ selected\ prices.\r\n\r\n\ @author\ \ Immanuel\ Rajadurai,\ Maya\ Dejonge,\ Giorgio\ Grimesty,\ Aaron\ Gomes\r\n\ @version\ 06/04/2021\r\n
+comment1.params=navigator
+comment1.target=PriceSelector(Navigator)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PriceSelector\r\n
+comment2.params=
+comment2.target=javafx.scene.layout.HBox\ create()
+comment2.text=\r\n\ Creates\ the\ selectors\r\n
+comment3.params=
+comment3.target=java.lang.Object\ getFromPrice()
+comment3.text=\r\n\ Gets\ the\ minimum\ price\r\n
+comment4.params=
+comment4.target=java.lang.Object\ getToPrice()
+comment4.text=\r\n\ Gets\ the\ maximum\ price\r\n
+comment5.params=
+comment5.target=javafx.scene.control.Label\ createPriceRangeLabel()
+comment6.params=
+comment6.target=void\ displayPrice()
+comment7.params=
+comment7.target=void\ displayNavigation()
+numComments=8

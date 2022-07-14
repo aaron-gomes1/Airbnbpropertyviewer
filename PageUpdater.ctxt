@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PageUpdater
+comment0.text=\r\n\ A\ class\ that\ updates\ the\ pages\ when\ certain\ events\ occur.\r\n\r\n\ @author\ \ Immanuel\ Rajadurai,\ Maya\ Dejonge,\ Giorgio\ Grimesty,\ Aaron\ Gomes\r\n\ @version\ 06/04/2021\r\n
+comment1.params=
+comment1.target=PageUpdater()
+comment1.text=\r\n\ Constructor\ for\ PageUpdater\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getPages()
+comment2.text=\r\n\ Gets\ all\ the\ pages\r\n
+comment3.params=page
+comment3.target=void\ addPage(Page)
+comment3.text=\r\n\ Adds\ a\ page\ to\ the\ pages\ to\ be\ updated\r\n
+comment4.params=
+comment4.target=void\ updatePages()
+comment4.text=\r\n\ Updates\ each\ page\r\n
+numComments=5

@@ -1,0 +1,189 @@
+@font-face {
+    src: url('Oxygen/Oxygen-Bold.ttf');
+}
+
+.root {
+    -fx-font-family: Verdana;
+    -fx-background-image: url("background_image.jpg");
+    -fx-background-repeat: stretch; 
+    -fx-background-position: center center;
+}
+
+.combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, white;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-family: "Oxygen Bold";
+    -fx-border-color: white;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-cursor: hand;
+}
+
+.toolbar .button {
+    -fx-border-width: 2px;
+}
+
+.button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.welcome1 {
+    -fx-background-color: white;
+    -fx-alignment: center ;
+    -fx-text-fill: black;
+    -fx-font-size: 30px;
+    -fx-font-family: "Oxygen Bold";
+    -fx-background-radius: 30.0; 
+    -fx-min-height: 150;
+    -fx-max-width: 400;
+}
+
+.welcome_page {
+    -fx-alignment: center ;
+}
+
+.instructions {
+    -fx-background-color: #2d4b5a;
+    -fx-alignment: center ;
+    -fx-max-width: 570;
+    -fx-min-height: 90;
+    -fx-background-radius: 30.0; 
+}
+
+.instructions .label{
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+}
+
+.price_box .label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-family: "Oxygen Bold";
+}
+
+.page {
+    -fx-background-color: white;
+    -fx-background-radius: 30.0; 
+    -fx-max-width: 750;
+    -fx-max-height: 550;
+}
+
+.map .label {
+    -fx-font-family: "Oxygen Bold";
+    -fx-text-fill: white;
+}
+
+.map StackPane:hover{
+    -fx-opacity: 1;
+}
+.map StackPane:focused{
+    -fx-opacity: 1;
+}
+
+.map StackPane{
+    -fx-cursor: hand;
+    -fx-opacity: 0.5;
+}
+
+.boroughs {
+    -fx-alignment: center ;
+}
+
+.stat_box .button {
+    -fx-background-color: #2d4b5a;
+    -fx-text-fill: white;
+    -fx-border-color: none;
+    -fx-background-radius: 0;
+    -fx-alignment: center;
+}
+
+.all_statistics GridPane{
+    -fx-alignment: center;
+}
+
+.stat_box .label {
+    -fx-alignment: center;
+    -fx-text-fill: white;
+}
+
+.stat_box {
+    -fx-padding: 20px;
+    -fx-background-insets: 10px;
+    -fx-background-color: #2d4b5a;
+    -fx-background-radius: 20;
+    -fx-min-height: 150px;
+}
+
+.stat_label {
+    -fx-font-family: "Oxygen Bold";
+    -fx-font-size: 17px;
+}
+.property_display HBox{
+    -fx-background-color: #2d4b5a;
+}
+
+.property_display HBox .label{
+    -fx-text-fill: white;
+}
+
+.property_header{
+    -fx-font-size: 15px;
+    -fx-font-family: "Oxygen Bold";
+}
+
+.property_details{
+    -fx-background-image: none;
+}
+
+.property_details HBox {
+    -fx-background-color: #2d4b5a;
+    -fx-padding: 5px;
+}
+
+
+.favourite_button {
+    -fx-border-color: none;
+    -fx-cursor: hand;
+}
+.favourite_button:hover {
+    -fx-background-color: none;
+}
+
+.embedded_property_display .scroll-pane {
+    -fx-max-width: 700;
+    -fx-max-height: 440;
+    -fx-border-color: white;
+    -fx-background: #FFFFFF;
+    -fx-alignment: center;
+}
+
+.embedded_property_display HBox{
+    -fx-background-color: #2d4b5a;
+}
+
+.embedded_property_display HBox .label {
+    -fx-text-fill: white;
+}
+
+.title {
+    -fx-font-family: "Oxygen Bold";
+    -fx-font-size: 20px;
+    -fx-padding: 5px;
+    -fx-alignment: center;
+    -fx-background-color: #2d4b5a;
+    -fx-text-fill: white;
+    -fx-max-width: 800;
+    -fx-background-radius: 30.0 30.0 0 0; 
+}
+
+.no_recommendations_label {
+    -fx-alignment: center;
+}
+

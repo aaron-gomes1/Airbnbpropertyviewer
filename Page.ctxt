@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Page
+comment0.text=\r\n\ A\ Page\ which\ can\ be\ filled\ with\ anything.\r\n\ \r\n\ @author\ \ Immanuel\ Rajadurai,\ Maya\ Dejonge,\ Giorgio\ Grimesty,\ Aaron\ Gomes\r\n\ @version\ 06/04/2021\r\n
+comment1.params=selector\ dataLoader
+comment1.target=Page(PriceSelector,\ AirbnbDataLoader)
+comment1.text=\r\n\ Constructor\ for\ page\r\n
+comment2.params=
+comment2.target=void\ update()
+comment3.params=
+comment3.target=PriceSelector\ getSelector()
+comment3.text=\r\n\ Returns\ the\ price\ selector.\r\n\r\n\ @return\ the\ price\ selector.\r\n
+comment4.params=
+comment4.target=AirbnbDataLoader\ getDataLoader()
+comment4.text=\r\n\ Returns\ the\ data\ loader.\r\n\r\n\ @return\ the\ data\ loader.\r\n
+comment5.params=
+comment5.target=javafx.scene.layout.Pane\ getPane()
+comment5.text=\r\n\ Returns\ the\ pane.\r\n\r\n\ @return\ the\ pane.\r\n
+comment6.params=pane
+comment6.target=void\ setPane(javafx.scene.layout.Pane)
+numComments=7
